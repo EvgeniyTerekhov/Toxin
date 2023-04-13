@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 5px;
+}
+
+.container {
+    width: 1149px;
+    display: grid;
+    grid-template-columns: 282px 436px;
+    justify-content: space-between;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: 70px 172px;
+    grid-column-gap: 40px;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+.colors__item {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+
+.colors__item_1 {
+    background-color: #1F2041;
+}
+
+.colors__item_2 {
+    background-color: #1F2041;
+    opacity: 75%;
+}
+
+.colors__item_3 {
+    background-color: #1F2041;
+    opacity: 50%;
+}
+
+.colors__item_4 {
+    background-color: #1F2041;
+    opacity: 25%;
+}
+
+.colors__item_5 {
+    background-color: #1F2041;
+    opacity: 5%;
+}
+
+.colors__item_6 {
+    background-color: #BC9CFF;
+}
+
+.colors__item_7 {
+    background-color: #6FCF97;
+}
+
+.colors__item_text {
+    font-size: 19px;
+}
+
+.type {
+    font-weight: 700;
+}
+
+.fonts {
+    display: grid;
+    grid-template-columns: 29px 310px;
+    grid-template-rows: 50px 30px 30px 51px 30px 51px 24px 32px;
+    grid-column-gap: 30px;
+    grid-row-gap: 41px;
+    
+}
+
+.fonts__heading {
+    margin: 0;
+    text-align: end;
+    opacity: 25%; 
+}
+
+p {
+    margin: 0;
+}
+
+.fonts__item_1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.fonts__item_2 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.fonts__item_3 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.fonts__item_4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 75%;
+}
