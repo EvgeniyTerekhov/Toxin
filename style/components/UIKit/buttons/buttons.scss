@@ -1,0 +1,52 @@
+form {
+    display: flex;
+}
+
+.gradient__entrance {
+    background: linear-gradient(#BC9CFF, #8BA4F9);
+    width: 87px;
+    height: 34px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    &:hover, :focus, :active {
+        opacity: 50%;
+    }
+}
+
+button {
+    border: 0;
+    &.button__item {
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        line-height: 14px;
+        text-align: center;
+    }
+}
+
+.button__item_entrance {
+    width: 85px;
+    height: 31px;
+    .button__item-link-entrance {
+        color: #BC9CFF;
+    }    
+}
+
+.button__item_registration {
+    width: 196px;
+    height: 34px;
+    background: linear-gradient(#BC9CFF, #8BA4F9);
+    &:hover, :focus, :active {
+        opacity: 50%;
+    }
+    .button__item-link-registration {
+        color: #FFFFFF;
+    }
+}
+

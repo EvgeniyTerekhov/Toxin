@@ -1,0 +1,61 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gradient__entrance {
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(#BC9CFF, #8BA4F9);
+  width: 87px;
+  height: 34px;
+  border-radius: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+.gradient__entrance:hover, .gradient__entrance :focus, .gradient__entrance :active {
+  opacity: 50%;
+}
+
+button {
+  border: 0;
+}
+button.button__item {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  line-height: 14px;
+  text-align: center;
+}
+
+.button__item_entrance {
+  width: 85px;
+  height: 31px;
+}
+.button__item_entrance .button__item-link-entrance {
+  color: #BC9CFF;
+}
+
+.button__item_registration {
+  width: 196px;
+  height: 34px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(#BC9CFF, #8BA4F9);
+}
+.button__item_registration:hover, .button__item_registration :focus, .button__item_registration :active {
+  opacity: 50%;
+}
+.button__item_registration .button__item-link-registration {
+  color: #FFFFFF;
+}

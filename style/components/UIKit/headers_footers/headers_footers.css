@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("../buttons/buttons.css");
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -40,8 +41,7 @@ header {
   list-style-type: none;
   padding: 0px;
 }
-
-.header__nav-link {
+.header__list .header__nav-link {
   display: block;
   text-decoration: none;
   font-size: 14px;
@@ -52,97 +52,11 @@ header {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
-.header__nav-link:hover, .header__nav-link:focus, .header__nav-link:active {
+.header__list .header__nav-link:hover, .header__list .header__nav-link :focus, .header__list .header__nav-link :active {
   opacity: 75%;
   font-weight: 700;
 }
 
-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-button {
-  border: 0;
-}
-
-.button__item {
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  background-color: #FFFFFF;
-  border-radius: 20px;
-  line-height: 14px;
-  text-align: center;
-}
-
-.gradient__entrance {
-  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
-  background: linear-gradient(#BC9CFF, #8BA4F9);
-  width: 87px;
-  height: 34px;
-  border-radius: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 20px;
-}
-
-.gradient__registration {
-  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
-  background: linear-gradient(#BC9CFF, #8BA4F9);
-  width: 196px;
-  height: 34px;
-  border-radius: 22px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.button__item_entrance {
-  width: 85px;
-  height: 31px;
-}
-
-.button__item_registration {
-  width: 194px;
-  height: 31px;
-}
-
-.button__item:last-child {
+.header__nav-link:last-child {
   margin-right: 0px;
-}
-
-.button__item-link {
-  font-size: 12px;
-  color: #BC9CFF;
-}
-
-.button__item_entrance:hover, .button__item_entrance:focus, .button__item_entrance:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
-  background: linear-gradient(#BC9CFF, #8BA4F9);
-}
-
-.button__item_registration:hover, .button__item_registration:focus, .button__item_registration:active {
-  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
-  background: linear-gradient(#BC9CFF, #8BA4F9);
-}
-
-.button__item-link:hover, .button__item-link:focus, .button__item-link:active {
-  color: #FFFFFF;
 }
